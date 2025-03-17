@@ -8,6 +8,13 @@
     display: flex;
 }
 
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+
 
 .inline .btn{
     margin-left: 1rem;

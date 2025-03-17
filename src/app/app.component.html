@@ -15,6 +15,9 @@
         <li *ngIf="authService.isLoggedIn()" class="nav-item">
             <a routerLink="payroll" routerLinkActive="active" class="nav-link">Payroll</a> <!-- ✅ Add Payroll -->
         </li>
+        <li *ngIf="authService.isLoggedIn()" class="nav-item">
+            <a routerLink="attendance-summary" routerLinkActive="active" class="nav-link">Attendance-Summary</a> 
+        </li>
     </ul>
     <ul class="navbar-nav ms-auto">
         <li *ngIf="!authService.isLoggedIn()" class="nav-item">
